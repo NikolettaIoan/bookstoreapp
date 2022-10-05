@@ -7,6 +7,7 @@ A full stack application using:
 - MVC architecture 
 - Maven (maven-archetype-webapp)
 - H2 relational database
+- Apache Tomcat
 - CSS
 
 ### To do:
