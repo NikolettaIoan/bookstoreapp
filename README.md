@@ -1,2 +1,14 @@
 # bookstoreapp
-bookstore-app database
+
+##in progress 
+
+A full stack application using: 
+- Hibernate Java
+- MVC architecture 
+- Maven (maven-archetype-webapp)
+- H2 relational database
+- CSS
+
+### To do:
+- Adding CSS 
+- minor changes (adding a second  search choice)
