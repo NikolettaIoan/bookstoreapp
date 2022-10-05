@@ -19,4 +19,4 @@ A full stack application using:
 ### Snapshots
 
 - index.sjp
-![index_snapshot](https://user-images.githubusercontent.com/65850263/194075536-96cb78bd-3b6d-43ee-b0bf-96a6153b4053.png)
+![index_snapshot](https://user-images.githubusercontent.com/65850263/194075536-96cb78bd-3b6d-43ee-b0bf-96a6153b4053.png | width=100)
