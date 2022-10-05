@@ -9,13 +9,23 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
     <title>BooksSearchApp</title>
     <link
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/static/css/index.css"
+      href="${pageContext.request.contextPath}/static/css/index.css? version=2"
     />
   </head>
   <body>
-    <h1>Hello to my app</h1>
-    <h2>You can make a new book entry, delete or remove an existing one.</h2>
-    <h3>Login to continue</h3>
-    <a href="${pageContext.request.contextPath}/jsps/login.jsp">Login!</a>
+    <div class="container">
+      <h1>Book Store App</h1>
+      <h2>You can make a new book entry, delete or remove an existing one.</h2>
+
+      <a href="${pageContext.request.contextPath}/jsps/login.jsp"
+        >Login to continue</a
+      >
+      <div class="img-container">
+        <img
+          src="${pageContext.request.contextPath}/static/img/books.png"
+          alt="books image"
+        />
+      </div>
+    </div>
   </body>
 </html>
