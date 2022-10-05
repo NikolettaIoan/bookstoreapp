@@ -19,4 +19,4 @@ A full stack application using:
 ### Snapshots
 
 - index.sjp
-  ![Alt text](snapshots\index-snapshot.png 'home page')
+  ![My Image](snapshots\index-snapshot.png 'home page')
