@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;500;700;900&display=swap');
+
+:root {
+  --main-color-white: rgb(243, 234, 231);
+  --font-family-main: 'Roboto', sans-serif;
+  --linear-mix: linear-gradient(
+    to left bottom,
+    #072046,
+    #1c2a6a,
+    #42308c,
+    #712ea8,
+    #a616bc
+  );
+}
+
+body {
+  background: var(--linear-mix);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-style: italic;
+  padding-left: 0.5em;
+}
+
+.container {
+  height: 100%;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: var(--main-color-white);
+  border-radius: 15px;
+}
+
+.btn {
+  background: #42308c;
+  color: var(--main-color-white);
+  font-size: 1.5em;
+  font-style: normal;
+  transition: 0.5s ease-in;
+}
+
+.btn:hover {
+  background: #712ea8;
+  color: var(--main-color-white);
+}
+
+.link-box {
+  margin-top: 1rem;
+  color: var(--main-color-white);
+}
+
+.return {
+  text-align: left;
+  display: block;
+  margin-top: 3rem;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.container-error {
+  color: rgb(180, 2, 2);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+#backToLogin {
+  margin-top: 1rem;
+  display: block;
+}

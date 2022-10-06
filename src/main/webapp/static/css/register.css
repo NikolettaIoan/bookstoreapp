@@ -1,0 +1,50 @@
+:root {
+  --main-color-white: rgb(243, 234, 231);
+  --font-family-main: 'Roboto', sans-serif;
+  --linear-mix: linear-gradient(
+    to left bottom,
+    #072046,
+    #1c2a6a,
+    #42308c,
+    #712ea8,
+    #a616bc
+  );
+}
+
+body {
+  background: var(--linear-mix);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 3rem;
+  text-align: center;
+  color: var(--main-color-white);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+a {
+  color: var(--main-color-white);
+  text-decoration: none;
+  margin-top: 1rem;
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  padding: 0.7em;
+  border-bottom: transparent 2px solid;
+  transition: border-bottom 0.5s ease-in;
+}
+
+a:hover {
+  border-bottom: var(--main-color-white) 2px solid;
+}
