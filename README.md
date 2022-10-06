@@ -25,9 +25,10 @@ A full stack application using:
 
 -login.jsp
 
-  <img src="https://user-images.githubusercontent.com/65850263/194189948-badd29c4-0868-4e55-a937-679eb3d4bbb4.png" alt="index.jsp" style= "display:inline;
+  <img src="https://user-images.githubusercontent.com/65850263/194191474-84529a1e-ba44-4a57-a3f8-35b7433dd175.png" alt="login form" style= "display:inline;
   margin: 0 auto;
   max-width:100px">
-  <img src="https://user-images.githubusercontent.com/65850263/194190272-c406a7b6-74a1-4102-b93f-d2b38079ca0a.png" alt="index.jsp" style= "display:inline;
+  <img src="https://user-images.githubusercontent.com/65850263/194191391-433a1818-bf03-4b3d-bc4a-6e10d613a1fd.png" alt="register form" style= "display:inline;
   margin: 0 auto;
   max-width:100px">
+
