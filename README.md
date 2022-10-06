@@ -27,7 +27,7 @@ A full stack application using:
 
   <img src="https://user-images.githubusercontent.com/65850263/194189948-badd29c4-0868-4e55-a937-679eb3d4bbb4.png" alt="index.jsp" style= "display:inline;
   margin: 0 auto;
-  max-width:120px">
+  max-width:100px">
   <img src="https://user-images.githubusercontent.com/65850263/194190272-c406a7b6-74a1-4102-b93f-d2b38079ca0a.png" alt="index.jsp" style= "display:inline;
   margin: 0 auto;
-  max-width:120px">
+  max-width:100px">
