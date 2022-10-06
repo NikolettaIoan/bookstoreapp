@@ -14,9 +14,9 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
     />
     <link
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/static/css/booksmenu.css? version=0.2"
+      href="${pageContext.request.contextPath}/static/css/booksmenu.css? version=2.5"
     />
-    <script src="${pageContext.request.contextPath}/static/js/booksmenu.js""></script>
+    <script src="${pageContext.request.contextPath}/static/js/booksmenu.js"></script>
   </head>
   <body>
     <div class="container">
@@ -24,11 +24,11 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
         <h1>Books Menu</h1>
       </div>
       <div class="row">
-        <div class="col">
-          <h2 id="searchSelect">Search</h2>
+        <div class="col" id="searchSelect">
+          <h2>Search</h2>
         </div>
-        <div class="col">
-          <h2 id="insertSelect">Insert</h2>
+        <div class="col" id="insertSelect">
+          <h2 class="fadeDiv">Insert</h2>
         </div>
       </div>
       <div class="row">
@@ -95,7 +95,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
                 type="number"
                 step="0.01"
                 class="rounded"
-                id="insertPrice"                
+                id="insertPrice"
                 placeholder="Insert book's price"
               />
             </div>
@@ -160,13 +160,12 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
           </form>
         </div>
         <div class="row justify-content-md-center">
-          
-            <div class="error">
-              <c:if test="${sqlError}">
-                <p>Error in insert. Please try again</p>
-              </c:if>
-            </div>
-          
+          <div class="error">
+            <c:if test="${sqlError}">
+              <p>Error in insert. Please try again</p>
+            </c:if>
+          </div>
+
           <div class="error">
             <c:if test="${booksNotFound}">
               <p>No books found</p>

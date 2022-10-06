@@ -86,3 +86,7 @@ input {
   font-size: 1.5rem;
   text-align: center;
 }
+
+.fadeDiv {
+  opacity: 0.2;
+}
