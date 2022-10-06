@@ -39,15 +39,14 @@ public class BookSearchController extends HttpServlet {
 		// Construct DTO
 		BookDTO bookDTO = new BookDTO();
 		bookDTO.setTitle(title);
-		//bookDTO.setAuthor(author);
+		bookDTO.setAuthor(author);
 		
 		try {
-//			if (title.length() ==0) {
-//				books = bookServ.getBooksByAuthor(author);
-//			} else {
-//				books = bookServ.getBooksByTitle(title);
-//			}
-			books = bookServ.getBooksByTitle(title);
+			if (title.length() ==0) {
+				books = bookServ.getBooksByAuthor(author);
+			} else {
+				books = bookServ.getBooksByTitle(title);
+			}
 			
 			request.setAttribute("books", books);
 			request.getRequestDispatcher("/jsps/books.jsp").forward(request, response);

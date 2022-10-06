@@ -18,7 +18,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
     />
     <link
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/static/css/login.css? version=2.0"
+      href="${pageContext.request.contextPath}/static/css/login.css? version=2.5"
     />
     <script src="${pageContext.request.contextPath}/static/js/login.js"></script>
   </head>

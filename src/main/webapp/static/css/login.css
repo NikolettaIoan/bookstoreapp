@@ -39,12 +39,14 @@ a {
   margin: 0 auto;
   background-color: var(--main-color-white);
   border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px,
+    rgba(0, 0, 0, 0.6) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
 }
 
 .btn {
   background: #42308c;
   color: var(--main-color-white);
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-style: normal;
   transition: 0.5s ease-in;
 }

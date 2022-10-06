@@ -10,6 +10,8 @@ A full stack application using:
 - H2 relational database
 - Apache Tomcat
 - CSS
+- Bootstrap
+- Javascript (jQuery)
 
 ### To do:
 
@@ -25,10 +27,9 @@ A full stack application using:
 
 -login.jsp
 
-  <img src="https://user-images.githubusercontent.com/65850263/194191474-84529a1e-ba44-4a57-a3f8-35b7433dd175.png" alt="login form" style= "display:inline;
+<img src="https://user-images.githubusercontent.com/65850263/194191474-84529a1e-ba44-4a57-a3f8-35b7433dd175.png" alt="login form" style= "display:inline;
   margin: 0 auto;
   max-width:100px">
-  <img src="https://user-images.githubusercontent.com/65850263/194191391-433a1818-bf03-4b3d-bc4a-6e10d613a1fd.png" alt="register form" style= "display:inline;
+<img src="https://user-images.githubusercontent.com/65850263/194191391-433a1818-bf03-4b3d-bc4a-6e10d613a1fd.png" alt="register form" style= "display:inline;
   margin: 0 auto;
   max-width:100px">
-
