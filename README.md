@@ -24,7 +24,8 @@ A full stack application using:
   max-width:150px">
 
 -login.jsp
-<img src="https://user-images.githubusercontent.com/65850263/194189948-badd29c4-0868-4e55-a937-679eb3d4bbb4.png" alt="index.jsp" style= "display:inline-block;
+
+  <img src="https://user-images.githubusercontent.com/65850263/194189948-badd29c4-0868-4e55-a937-679eb3d4bbb4.png" alt="index.jsp" style= "display:inline-block;
   margin: 0 auto;
   max-width:150px">
   <img src="https://user-images.githubusercontent.com/65850263/194190272-c406a7b6-74a1-4102-b93f-d2b38079ca0a.png" alt="index.jsp" style= "display:inline-block;
