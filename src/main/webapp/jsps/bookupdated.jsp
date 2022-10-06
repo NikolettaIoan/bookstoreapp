@@ -7,7 +7,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
     <title>New Book Inserted</title>
   </head>
   <body>
-    <h1>New Book Inserted</h1>
+    <h1>Book Updated!</h1>
     <div>
       <p>${insertedbook.title}</p>
       <p>${insertedbook.author}</p>

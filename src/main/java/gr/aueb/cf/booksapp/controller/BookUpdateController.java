@@ -69,7 +69,7 @@ public class BookUpdateController extends HttpServlet {
 		
 		try {
 			bookServ.updateBook(newBookDTO);
-			request.setAttribute("book", newBookDTO);
+			request.setAttribute("insertedbook", newBookDTO);
 			request.getRequestDispatcher("/jsps/bookupdated.jsp").forward(request, response);
 		} catch (EntityNotFoundException e) {
 			e.printStackTrace();

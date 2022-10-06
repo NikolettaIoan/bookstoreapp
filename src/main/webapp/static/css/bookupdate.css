@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;500;700;900&display=swap');
+
+:root {
+  --main-color-white: rgb(243, 234, 231);
+  --text-color-dark: rgb(26, 26, 26);
+  --font-family-main: 'Roboto', sans-serif;
+  --linear-mix: linear-gradient(
+    to left bottom,
+    #072046,
+    #1c2a6a,
+    #42308c,
+    #712ea8,
+    #a616bc
+  );
+}
+
+body {
+  background-image: var(--linear-mix);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-color-dark);
+  letter-spacing: 1.5px;
+  height: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.link_row {
+  width: 80%;
+  margin: 1.5rem auto;
+}
+
+.link_row--text {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: var(--main-color-white);
+  border-bottom: transparent 3px solid;
+  width: fit-content;
+  transition: border-bottom 0.4s ease-in;
+}
+
+.link_row--text:hover {
+  color: var(--main-color-white);
+  border-bottom: currentColor 3px solid;
+}
+
+.container {
+  width: 50%;
+  background-color: var(--main-color-white);
+  border-radius: 10px;
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px,
+    rgba(0, 0, 0, 0.6) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+}
+
+.btn-primary {
+  background-color: #32308c;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.btn-primary:hover {
+  background-color: #2a2979;
+}
+
+input {
+  width: 100%;
+}
+
+.col-id {
+  background-color: rgb(218, 206, 202);
+}

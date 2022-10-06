@@ -18,7 +18,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
     />
     <link
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/static/css/login.css? version=2.5"
+      href="${pageContext.request.contextPath}/static/css/login.css? version=3"
     />
     <script src="${pageContext.request.contextPath}/static/js/login.js"></script>
   </head>
@@ -106,8 +106,9 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
         </c:if>
       </div>
       <a href="${pageContext.request.contextPath}/index.jsp" class="return"
-        >Back to Homepage</a
+        >&#8592 Back</a
       >
     </div>
   </body>
 </html>
+ 

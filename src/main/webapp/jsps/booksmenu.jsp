@@ -74,6 +74,8 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
                 type="text"
                 placeholder="Insert book's title"
                 class="rounded"
+                minlength="2"
+                required
                 id="insertTitle"
                 autofocus
               />
@@ -85,6 +87,8 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
                 type="text"
                 id="insertAuthor"
                 class="rounded"
+                minlength="2"
+                required
                 placeholder="Insert book's author"
               />
             </div>
@@ -96,6 +100,8 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
                 step="0.01"
                 class="rounded"
                 id="insertPrice"
+                min="0"
+                required
                 placeholder="Insert book's price"
               />
             </div>
