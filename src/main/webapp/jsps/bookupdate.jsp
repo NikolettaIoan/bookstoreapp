@@ -13,7 +13,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" %>
     />
     <link
       rel="stylesheet"
-      href="${pageContext.request.contextPath}/static/css/bookupdate.css? version=3"
+      href="${pageContext.request.contextPath}/static/css/bookupdate.css? version=2.5"
     />
   </head>
   <body>

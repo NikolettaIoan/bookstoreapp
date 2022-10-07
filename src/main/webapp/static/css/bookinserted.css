@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Roboto:wght@300;500;700;900&display=swap');
+
+:root {
+  --main-color-white: rgb(243, 234, 231);
+  --text-color-dark: rgb(26, 26, 26);
+  --font-family-main: 'Roboto', sans-serif;
+  --linear-mix: linear-gradient(
+    to left bottom,
+    #072046,
+    #1c2a6a,
+    #42308c,
+    #712ea8,
+    #a616bc
+  );
+}
+
+body {
+  background-image: var(--linear-mix);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-color-dark);
+  letter-spacing: 1.7px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 7%;
+  width: fit-content;
+  background-color: var(--main-color-white);
+  border-radius: 10px;
+  padding: 1.5em 2.5em;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px,
+    rgba(0, 0, 0, 0.6) 0px 7px 13px -3px, rgba(0, 0, 0, 0.4) 0px -3px 0px inset;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 0.2em;
+  text-align: center;
+  border-bottom: currentColor 2px solid;
+  color: #382977;
+}
+
+.par {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.2em;
+  border-bottom: #712ea86e 1px solid;
+}
+
+.descr {
+  font-weight: 500;
+  font-size: 1.3rem;
+  width: fit-content;
+  margin-right: 0.3em;
+}
+
+.link {
+  margin-top: 1em;
+}
+
+.link > a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #a616bc;
+  padding: 0.3em 0.5em;
+  width: fit-content;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.link > a:hover {
+  background-color: #d2a4da;
+  color: #382977;
+  border-radius: 5px;
+}

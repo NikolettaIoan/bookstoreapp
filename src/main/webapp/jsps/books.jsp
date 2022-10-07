@@ -4,7 +4,7 @@ pageEncoding="UTF-8" contentType="text/html; charset=UTF-8"%>
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Insert title here</title>
+    <title>Books Search</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"

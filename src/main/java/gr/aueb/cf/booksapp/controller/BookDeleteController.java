@@ -71,7 +71,7 @@ public class BookDeleteController extends HttpServlet {
 			request.getRequestDispatcher("/jsps/bookdeleted.jsp").forward(request, response);
 		} catch (EntityNotFoundException e) {
 			request.setAttribute("deleteAPIError", true);
-			request.getRequestDispatcher("/jsps/teachers.jsp").forward(request, response);	
+			request.getRequestDispatcher("/jsps/books.jsp").forward(request, response);	
 		}	
 		
 	}
