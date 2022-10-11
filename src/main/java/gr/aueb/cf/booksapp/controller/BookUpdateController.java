@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import gr.aueb.cf.booksapp.controller.util.Validator;
 import gr.aueb.cf.booksapp.dao.BookDAOImpl;
 import gr.aueb.cf.booksapp.dao.IBookDAO;
 import gr.aueb.cf.booksapp.dto.BookDTO;
@@ -22,50 +23,22 @@ public class BookUpdateController extends HttpServlet {
 	IBookDAO bookDAO = new BookDAOImpl();
 	IBookService bookServ = new BookServiceImpl(bookDAO);
 	
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) 
 			throws ServletException, IOException{
 		
 		Long id = Long.parseLong(request.getParameter("id").trim());
-		System.out.println("paramid: "+id);
 		String title = request.getParameter("title").trim();
 		String author = request.getParameter("author").trim();
 		String publisher = request.getParameter("publisher").trim();
-		String cover = request.getParameter("cover").trim();
-		double price = 0;
-		int year = 0;
-		int pages = 0;
-		int edition = 0;
-		
+		String cover = request.getParameter("cover").trim();		
 		String priceStr = request.getParameter("price").trim();
-		if((priceStr != null) && (priceStr.length() > 0)) {
-			price = Double.parseDouble(priceStr);
-		}
-		String yearStr = request.getParameter("year").trim();
-		if((yearStr != null) && (yearStr.length() > 0)) {
-			year = Integer.parseInt(yearStr);
-		}	
-		
+		String yearStr = request.getParameter("year").trim();		
 		String pagesStr = request.getParameter("pages").trim();
-		if((pagesStr != null) && (pagesStr.length() > 0)) {
-			pages = Integer.parseInt(pagesStr);
-		}
 		String editionStr = request.getParameter("edition").trim();
-		if((editionStr != null) && (editionStr.length() > 0)) {
-			edition = Integer.parseInt(editionStr);
-		}
 		
-		BookDTO newBookDTO = new BookDTO();
+		BookDTO newBookDTO = Validator.validate(title, author, publisher, cover, priceStr, yearStr, pagesStr, editionStr);
 		newBookDTO.setId(id);
-		newBookDTO.setTitle(title);
-		newBookDTO.setAuthor(author);
-		newBookDTO.setPrice(price);
-		newBookDTO.setPublisher(publisher);
-		newBookDTO.setYear(year);
-		newBookDTO.setCover(cover);
-		newBookDTO.setEdition(edition);
-		newBookDTO.setPages(pages);
-		
-		System.out.println("newBookDTO id: "+ newBookDTO.getId());
 		
 		try {
 			bookServ.updateBook(newBookDTO);
