@@ -11,7 +11,7 @@ A full stack application using:
 - Bootstrap
 - Javascript (jQuery)
 
-### Snapshots
+### Screenshots
 
 - index.jsp
   - 
